@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=adge">
+    <meta name="description" content="This is demo web tamplate created by developer jahed">
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <!-- html element for doing nice used being the file  -->
+    <link rel="stylesheet" href="./extra-content/css/normalize.css">
+    <!-- fontawosome -->
+    <link rel="stylesheet" href="./extra-content/css/all.min.css">
+    <!-- bootstarp css file -->
+    <link rel="stylesheet" href="./extra-content/css/bootstrap.min.css">
+    <!-- animate css for wow js  -->
+    <link rel="stylesheet" href="./extra-content/css/animate.css">
+     <!-- fancybox css  -->
+    <link rel="stylesheet" href="./extra-content/css/jquery.fancybox.min.css">
+    <!-- owl carsol css link for slider -->
+    <link rel="stylesheet" href="./extra-content/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./extra-content/css/owl.carousel.min.css">
+    <!-- main style css -->
+    <link rel="stylesheet" href="./main-content/css/style.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="./main-content/css/responsive.css">
+    <title>Demo</title>
+</head>
+<body onload="siteloder()">
+
+  <div class="loder">
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+ 
+<header class="hedaer" id="home">
+  <!-- header section start  -->
+  <nav class="navbar navbar-expand-lg navbar-dark main-navbar">
+    <!-- navbar start  -->
+    <div class="container">
+      <a class="navbar-brand" href="#">Developer Imtiaj Imran</a>
+      <button class="navbar-toggler toggle-btn" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="fa fa-bars toggle-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav ml-auto main-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#service">Service</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+
+        <div class="navbar-search-and-login-aria d-flex text-center align-items-center">
+            <div class="nav-bar-search-btn">
+              <span class="navbar-serch"><i class="fa fa-search"></i></span>
+              <div class="serch-option">
+                <form class="d-flex">
+        <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light" type="submit">Search</button>
+      </form>
+              </div>
+            </div>
+            <div class="nav-bar-login-btn">
+              <a href="#" data-toggle="modal" data-target="#exampleModalCenter">Login</a>
+                      
+                           <!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header login-form-hide-btn">
+        <button type="button" class="close " data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form action="#">
+          <div class="row">
+            <div class="card login-bg py-5 text-center">
+              <div class="card-body sing login-form-body">
+                  <h3 class="">Login To Day</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                  <p></p>
+                  <form action="#">
+                      <div class="form-group my-3">
+                          <input type="text" placeholder="Username" class="form-control ">
+                      </div>
+
+
+                   <div class="form-group my-3">
+                       <input type="password" placeholder="Conform Password" class="form-control ">
+                       <input type="submit" class="btn btn-block btn-outline-light mt-3" value="Login">
+                   </div>
+                  </form>
+              </div>
+          </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar end  -->
+
+ 
+ <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  
+    <div class="banner-section">
+      <!-- banner section stsrt  -->
+      <ul class="slider-li carousel-indicators">
+        <li class="active" data-target="#carouselExampleIndicators" data-slide-to="0"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ul>
+
+      <div class="carousel-inner">
+
+        <div  class="carousel-item active">
+          <div class="banner-bg-img" style="background-image:url('./main-content/img/bg.jpg')">
+            <div class="container">
+              <!-- slider container start  -->
+              <div class="banner-contant">
+                <h1>Taste the Creativity</h1>
+                <p>We make awesome graphic and web design</p>
+                <a href="#" class="our-btn">Get Started</a>
+              </div>
+            </div>
+            <!-- slider container end  -->
+           </div>
+        </div>
+
+        <div  class="carousel-item">
+          <div class="banner-bg-img" style="background-image:url('./main-content/img/bg1.jpg')">
+            <div class="container">
+              <!-- slider container start  -->
+              <div class="banner-contant">
+                <h1>Taste the Creativity</h1>
+                <p>We make awesome graphic and web design</p>
+                <a href="#" class="our-btn">Get Started</a>
+              </div>
+            </div>
+            <!-- slider container end  -->
+           </div>
+        </div>
+
+        <div  class="carousel-item">
+          <div class="banner-bg-img" style="background-image:url('./main-content/img/1.jpg')">
+            <div class="container">
+              <!-- slider container start  -->
+              <div class="banner-contant">
+                <h1>Taste the Creativity</h1>
+                <p>We make awesome graphic and web design</p>
+                <a href="#" class="our-btn">Get Started</a>
+              </div>
+            </div>
+            <!-- slider container end  -->
+           </div>
+        </div>
+
+      </div>
+
+       <div class="slider-arow">
+        <div class="slider-left-arow " data-target="#carouselExampleIndicators" data-slide="prev">
+          <i class="fa fa-angle-left"></i>
+        </div>
+        <div class="slider-right-arow" data-target="#carouselExampleIndicators" data-slide="next">
+          <i class="fa fa-angle-right" ></i>
+        </div>
+      </div>
+
+     
+
+
+     </div>
+     <!-- banner section end  -->
+ </div>
+</header>
+<!-- header section end  -->
+
+<!--
+=========================================================================================
+service section
+=========================================================================================
+-->
+<section class="service-section" id="service">
+  <!-- service section start  -->
+  <div class="container">
+    <!-- service section container start -->
+    <div class="row">
+      <!-- service section header row strt  -->
+      <div class="section-header">
+        <h2>We are Good at</h2>
+        <p>SOME OF THEASE STUFF UNDER</p>
+      </div>
+    </div>
+    <!-- service section header row end  -->
+    <div class="row mt-80">
+      <!-- service section content row start  -->
+
+      <div class="col-lg-3 col-md-6 col-sm-12 wow fadeInLeft" data-wow-duration="3s">
+        <!-- service section content colam start  -->
+        <div class="service-item">
+          <!-- service section content  service item start  -->
+          <div class="service-item-content-icon">
+            <i class="fa fa-laptop-house"></i>  
+          </div>
+          <div class="service-item-content">
+            <h3>GRAPHIC DESIGN</h3>
+            <p>Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+            <a href="#">Learn More <i class="fa fa-angle-right"></i></a>
+          </div>
+        </div>
+        <!-- service section content service item end  -->
+      </div>
+       <!-- service section colam end  -->
+     
+
+       <div class="col-lg-3 col-md-6 col-sm-12 wow fadeInUp"data-wow-duration="3s">
+        <!-- service section content colam start  -->
+        <div class="service-item service-item-active">
+          <!-- service section content  service item start  -->
+          <div class="service-item-content-icon">
+            <i class="fa fa-laptop-house"></i>  
+          </div>
+          <div class="service-item-content">
+            <h3>GRAPHIC DESIGN</h3>
+            <p>Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+            <a href="#">Learn More <i class="fa fa-angle-right"></i></a>
+          </div>
+        </div>
+        <!-- service section content service item end  -->
+      </div>
+       <!-- service section colam end  -->
+      
+       <div class="col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="3s">
+        <!-- service section content colam start  -->
+        <div class="service-item">
+          <!-- service section content  service item start  -->
+          <div class="service-item-content-icon">
+            <i class="fa fa-laptop-house"></i>  
+          </div>
+          <div class="service-item-content">
+            <h3>GRAPHIC DESIGN</h3>
+            <p>Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+            <a href="#">Learn More <i class="fa fa-angle-right"></i></a>
+          </div>
+        </div>
+        <!-- service section content service item end  -->
+      </div>
+       <!-- service section colam end  -->
+
+       <div class="col-lg-3 col-md-6 col-sm-12 wow fadeInRight" data-wow-duration="3s">
+        <!-- service section content colam start  -->
+        <div class="service-item">
+          <!-- service section content  service item start  -->
+          <div class="service-item-content-icon">
+            <i class="fa fa-laptop-house"></i>  
+          </div>
+          <div class="service-item-content">
+            <h3>GRAPHIC DESIGN</h3>
+            <p>Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+            <a href="#">Learn More <i class="fa fa-angle-right"></i></a>
+          </div>
+        </div>
+        <!-- service section content service item end  -->
+      </div>
+       <!-- service section colam end  -->
+    </div>
+    <!-- service section content row end  -->
+  </div>
+  <!-- service section container end -->
+</section>
+<!-- service section end  -->
+
+<!--
+=========================================================================================
+service section
+=========================================================================================
+-->
+
+<section class="portfolio" id="portfolio">
+  <!-- portfolio section start  -->
+  <div class="container">
+    <!-- portfolio section container start  -->
+    <div class="row">
+      <div class="section-header">
+        <h2>We Make This</h2>
+        <p>PREPARE TO BE AMAZED</p>
+      </div>
+    </div>
+
+    <div class="row mt-80">
+      <!-- portfolio section content row start  -->
+
+      <div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="2s">
+        <!-- portfolio item colam start -->
+        <div class="portfolio-item">
+          <!-- portfolio item start  -->
+          <a data-fancybox="glarry" href="./main-content/img/protfolio/p2.PNG">
+          <img src="./main-content/img/protfolio/p2.PNG" alt="">
+          <div class="portfolio-item-position-content">
+            <i class="fas fa-plus"></i>
+          </div>
+        </a>
+        </div>
+        <!-- portfolio item end  -->
+      </div>
+      <!-- portfolio colam end  -->
+     
+
+      <div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp"data-wow-duration="2s">
+        <!-- portfolio item colam start -->
+        <div class="portfolio-item">
+          <!-- portfolio item start  -->
+        <a data-fancybox="glarry" href="./main-content/img/protfolio/p.PNG">
+          <img src="./main-content/img/protfolio/p.PNG" alt="">
+          <div class="portfolio-item-position-content">
+            <i class="fas fa-plus"></i>
+          </div>
+        </a>
+        </div>
+        <!-- portfolio item end  -->
+      </div>
+      <!-- portfolio colam end  -->
+      <div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp"data-wow-duration="2s">
+        <!-- portfolio item colam start -->
+        <div class="portfolio-item">
+          <!-- portfolio item start  -->
+          <a data-fancybox="glarry" href="./main-content/img/protfolio/p3.PNG">
+          <img src="./main-content/img/protfolio/p3.PNG" alt="">
+          <div class="portfolio-item-position-content">
+            <i class="fas fa-plus"></i>
+          </div>
+          </a>
+        </div>
+        <!-- portfolio item end  -->
+      </div>
+      <!-- portfolio colam end  -->
+
+      <div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp"data-wow-duration="2s">
+        <!-- portfolio item colam start -->
+        <div class="portfolio-item">
+          <!-- portfolio item start  -->
+          <a data-fancybox="glarry" href="./main-content/img/protfolio/p.PNG">
+          <img src="./main-content/img/protfolio/p6.PNG" alt="">
+          <div class="portfolio-item-position-content">
+            <i class="fas fa-plus"></i>
+          </div>
+        </a>
+        </div>
+        <!-- portfolio item end  -->
+      </div>
+      <!-- portfolio colam end  -->
+
+      <div class="col-lg-4 col-md-6 col-sm-12 fadeInUp wow"data-wow-duration="2s">
+        <!-- portfolio item colam start -->
+        <div class="portfolio-item">
+          <!-- portfolio item start  -->
+          <a data-fancybox="glarry" href="./main-content/img/protfolio/p5.PNG">
+          <img src="./main-content/img/protfolio/p5.PNG" alt="">
+          <div class="portfolio-item-position-content">
+            <i class="fas fa-plus"></i>
+          </div>
+          </a>
+        </div>
+        <!-- portfolio item end  -->
+      </div>
+      <!-- portfolio colam end  -->
+
+      <div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="2s">
+        <!-- portfolio item colam start -->
+        <div class="portfolio-item">
+          <!-- portfolio item start  -->
+          <a data-fancybox="glarry" href="./main-content/img/protfolio/p4.PNG">
+          <img src="./main-content/img/protfolio/p4.PNG" alt="">
+          <div class="portfolio-item-position-content">
+            <i class="fas fa-plus"></i>
+          </div>
+        </a>
+        </div>
+        <!-- portfolio item end  -->
+      </div>
+      <!-- portfolio colam end  -->
+
+    </div>
+    <!-- portfolio section content row end  -->
+    <div class="row text-center mt-5">
+      <p><a href="#" class="our-btn ">I WANT MORE...</a></p>
+    </div>
+  </div>
+  <!-- portfolio section container end  -->
+</section>
+<!-- portfolio section end  -->
+
+<!--
+=========================================================================================
+service section
+=========================================================================================
+-->
+
+<section class="about-section" id="about">
+  <!-- about section start  -->
+  <div class="container">
+    <!-- about section container end  -->
+     <div class="row text-center py-3">
+       <!-- about section header img row start  -->
+       <div class="col-lg-12">
+         <img src="./main-content/img/section-header-img.png" alt="">
+       </div>
+     </div>
+     <!-- about section header img section row and  -->
+    <div class="row">
+      <!-- about section header content row start  -->
+      <div class="col-lg-12">
+        <div class="section-header">
+           <h2>Some About Us</h2>
+           <p>THE GREAT TEAM</p>
+        </div>
+      </div>
+    </div>
+    <!-- about section header row end  -->
+
+    <div class="row mt-80">
+      <!-- about section content row start start  -->
+      <div class="col-lg-6 mb-5 mt-4 col-sm-12 col-md-12 wow fadeInLeft" data-wow-duration="3s">
+        <!-- about section item colam start  -->
+        <div class="aboutus-item">
+          <h3>Retina Design</h3>
+          <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>
+          <p class="pb-3">Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.</p>
+          <a href="#" class="our-btn">OREDER ME ONE</a>
+        </div>
+      </div>
+       <!-- about section item colam end  -->
+      <div class="col-lg-6 col-md-12 col-sm-12 wow fadeInRight"data-wow-duration="3s">
+        <!-- about section item colam start  -->
+        <div class="aboutus-img">
+          <img src="./main-content/img/about-img1.jpg" alt="">
+        </div>
+      </div>
+      <!-- about section item colam end  -->
+    </div>
+    <!-- about section content row start end  -->
+  </div>
+  <!-- about section container end  -->
+</section>
+<!-- about section end  -->
+
+<!--
+=========================================================================================
+team  section
+=========================================================================================
+-->
+
+<section class="team-section" id="team">
+  <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2>Meet the Team</h2>
+          <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 mx-auto">
+             <p class="team-header-title">Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-80 ">
+
+        <div class="col-lg-3 col-md-6 col-sm-12 my-4 wow fadeInLeft" data-wow-duration="3s">
+          <!-- team item colam start  -->
+          <div class="team-item">
+            <!-- .team item start -->
+             <img src="./main-content/img/team-1.jpg" alt="">
+            <div class="team-item-content">
+              <h3>Anika Islam</h3>
+              <h5>Designer</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, Lorem ipsum dolor sit amet.</p>
+              <p class="mb-1 mt-4"><a href="#" class="team-btn">Website</a></p>
+            </div>
+          </div>
+          <!-- team item end  -->
+        </div>
+        <!-- team item colam end  -->
+
+        <div class="col-lg-3 col-md-6 col-sm-12 my-4 wow fadeInUp"data-wow-duration="3s">
+          <!-- team item colam start  -->
+          <div class="team-item">
+            <!-- .team item start -->
+             <img src="./main-content/img/team3.jpg" alt="">
+            <div class="team-item-content">
+              <h3>Imtiaj Imran</h3>
+              <h5>Web Developer</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, Lorem ipsum dolor sit amet.</p>
+              <p class="mb-1 mt-4"><a href="#" class="team-btn">Website</a></p>
+            </div>
+          </div>
+          <!-- team item end  -->
+        </div>
+        <!-- team item colam end  -->
+
+        <div class="col-lg-3 col-md-6 col-sm-12 my-4 wow fadeInUp"data-wow-duration="3s">
+          <!-- team item colam start  -->
+          <div class="team-item">
+            <!-- .team item start -->
+             <img src="./main-content/img/team-2.jpg" alt="">
+            <div class="team-item-content">
+              <h3>Sayma Islam</h3>
+              <h5>Designer</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, Lorem ipsum dolor sit amet.</p>
+              <p class="mb-1 mt-4"><a href="#" class="team-btn">Website</a></p>
+            </div>
+          </div>
+          <!-- team item end  -->
+        </div>
+        <!-- team item colam end  -->
+
+        <div class="col-lg-3 col-md-6 col-sm-12 my-4 wow fadeInRight" data-wow-duration="3s">
+          <!-- team item colam start  -->
+          <div class="team-item">
+            <!-- .team item start -->
+             <img src="./main-content/img/team-4.jpg" alt="">
+            <div class="team-item-content">
+              <h3>Sabbir Islam</h3>
+              <h5>Bussness Developer</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, Lorem ipsum dolor sit amet.</p>
+              <p class="mb-1 mt-4"><a href="#" class="team-btn">Website</a></p>
+            </div>
+          </div>
+          <!-- team item end  -->
+        </div>
+        <!-- team item colam end  -->
+
+      </div>
+  </div>
+</section>
+
+<!--
+=========================================================================================
+company logo section
+=========================================================================================
+-->
+<section class="company-logo-section">
+  <div class="container">
+    <div class="row company-logo-all-item px-5 owl-carousel  owl-theme m-auto">
+      <div class="company-logo-item m-auto text-center">
+
+        <img src="./main-content/img/logo1.png" alt="">
+      </div>
+
+      <div class="company-logo-item m-auto">
+
+        <img src="./main-content/img/logo2.png" alt="">
+      </div>
+
+      <div class="company-logo-item m-auto">
+
+        <img src="./main-content/img/logo1.png" alt="">
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!--
+=========================================================================================
+start project section
+=========================================================================================
+-->
+
+<section class="start-project">
+  <div class="container">
+    <div class="row text-center wow zoomIn" data-wow-duration="3s">
+      <h2>Start Your Project Now</h2>
+      <p>Leave your description and we start the engine.Don't worry,you can cancel anytime</p>
+      <p><a href="#" class="our-btn">START PROJECT</a></p>
+    </div>
+  </div>
+</section>
+
+
+
+<!--
+=========================================================================================
+news section
+=========================================================================================
+-->
+<section class="news-section" id="news">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-lg-12">
+        <img src="./main-content/img/section-header-img.png" alt="">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="section-header">
+          <h2>Read Our Blog</h2>
+          <p>NEW STORIES</p>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-80   owl-theme ">
+
+      <div class="col-lg-4 col-md-6 col-sm-12 mx-auto wow fadeInLeft"data-wow-duration="3s">
+        <div class="news-item">
+          <div class="news-item-content-img">
+            <img src="./main-content/img/news1 (1).jpg" alt="">
+          </div>
+          <div class="news-item-content">
+             <h4><i class="fa fa-newspaper"></i>12 jun 2020</h4>
+             <h3>How Performance Visiblety With GitLab CI And Hood</h3>
+             <p>Sedut perspiciatis unde omnis nat erroroluptat accusantium laudantim totam raperiaeaqupsa quae </p>
+             <a href="#" class="our-btn">Learn More <i class="fa fa-angle-right"></i></a>
+          </div>
+        </div>
+      </div>  
+
+      <div class="col-lg-4 col-md-6 col-sm-12 mx-auto zoomIn wow" data-wow-duration="3s">
+        <div class="news-item">
+          <div class="news-item-content-img">
+            <img src="./main-content/img/news1 (2).jpg" alt="">
+          </div>
+          <div class="news-item-content">
+             <h4><i class="fa fa-newspaper"></i>12 jun 2020</h4>
+             <h3>How Performance Visiblety With GitLab CI And Hood</h3>
+             <p>Sedut perspiciatis unde omnis nat erroroluptat accusantium laudantim totam raperiaeaqupsa quae </p>
+             <a href="#" class="our-btn">Learn More <i class="fa fa-angle-right"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mx-auto col-sm-12 wow fadeInRight"data-wow-duration="3s">
+        <div class="news-item">
+          <div class="news-item-content-img">
+            <img src="./main-content/img/news1 (3).jpg" alt="">
+          </div>
+          <div class="news-item-content">
+             <h4><i class="fa fa-newspaper"></i>12 jun 2020</h4>
+             <h3>How Performance Visiblety With GitLab CI And Hood</h3>
+             <p>Sedut perspiciatis unde omnis nat erroroluptat accusantium laudantim totam raperiaeaqupsa quae </p>
+             <a href="#" class="our-btn">Learn More <i class="fa fa-angle-right"></i></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+<!--
+=========================================================================================
+contact section section
+=========================================================================================
+-->
+
+<section class="contact-section" id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="section-header">
+          <h2>Contact Us</h2>
+          <p class="form-p">Sedut perspiciatis unde omnis nat erroroluptat accusantium laudantim totam</p>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-80">
+      <div class="col-lg-9 col-md-12 col-sm-12 mx-auto">
+        <div class="contact-form clear-fixt">
+         <div class="contact-form-left w-50 float-left">
+          <div class="row">
+            <div class="col-lg-12">
+              <input type="text" placeholder="Enter Your Name">
+            </div>
+            <div class="col-lg-12">
+              <input type="text" placeholder="Enter Your Email">
+            </div>
+            <div class="col-lg-12">
+              <input type="text" placeholder="Enter Your Phone">
+            </div>
+          </div>
+         </div>
+
+         <div class="contact-form-right float-right w-50">
+           <div class="row">
+             <div class="col-lg-12">
+               <textarea name="" id="" cols="30" rows="10" placeholder="Enter Your Massage"></textarea>
+             </div>
+           </div>
+         </div>
+        </div>
+        <div class="row text-center submit-btn">
+          <div class="col-lg-10 mx-auto">
+            <a href="#" class="our-btn mx-auto d-block ">Send Massage</a>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--
+=========================================================================================
+newsletter section
+=========================================================================================
+-->
+<section class="newsletter">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5 col-md-8 col-sm-12">
+        <h3>Subscribe to our Newsletter:</h3>
+      </div>
+      <div class="col-lg-7 col-md-8 col-sm-12">
+        <div class="newsletter-form">
+          <div class="row">
+            <div class="col-lg-8 pb-4">
+              <input type="email" placeholder="Enter Your Email">
+            </div>
+            <div class="col-lg-4">
+              <a href="#" class="our-btn">Subscribe</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--
+=========================================================================================
+footer section
+=========================================================================================
+-->
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-sm-12 my-4">
+        <div class="footer-fast-item">
+           <img src="./main-content/img/footer-logo.png" alt="">
+           <h5>About Us</h5>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, Lorem ipsum dolor sit amet.</p>
+           <h5>Contact Link</h5>
+           <div class="footer-fast-item-contact">
+             <div>
+               <p><i class="fa fa-envelope"></i> <a href="tel:+8801970971994">+8801970971994</a></p>
+               <p><i class="fa fa-phone"></i>imtiajimran7139@gmail.com</p>
+             </div>
+           </div>
+        </div>
+      </div>
+      <div class="col-lg-3 my-4 col-md-6 col-sm-12">
+         <div class="footer-item">
+           <h5>Information</h5>
+           <ul>
+             <li><a href="#">About More</a></li>
+             <li><a href="#">Events</a></li>
+             <li><a href="#">Testimonial</a></li>
+             <li><a href="#">Blog</a></li>
+             <li><a href="#">More Serch</a></li>
+           </ul>
+         </div>
+      </div>
+
+      <div class="col-lg-3 my-4 col-md-6 col-sm-12">
+        <div class="footer-item">
+          <h5>Helful Links</h5>
+          <ul>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="www.facebook.com">Condation</a></li>
+          </ul>
+        </div>
+     </div>
+
+     <div class="col-lg-3 my-4 col-md-6 col-sm-12">
+      <div class="footer-item-last">
+        <h5>Subscribe More info</h5>
+        <form action="#">
+          <input placeholder="Enter Your Email">
+          <a href="#" class="our-btn">Subscribe</a>
+        </form>
+       </div>
+     </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+<div class="top">
+  <i class="fa fa-angle-double-up"></i>
+</div>
+
+
+
+
+    <script src="./extra-content/js/jquery-3.5.1.min.js"></script>
+    <script src="./extra-content/js/html5shiv.min.js"></script>
+    <script src="./extra-content/js/wow.js"></script>
+    <script src="./extra-content/js/owl.carousel.min.js"></script>
+    <script src="./extra-content/js/jquery.fancybox.min.js"></script>
+    <script src="./extra-content/js/respond.min.js"></script>
+    <script src="./extra-content/js/selectivizr.js"></script>
+    <script src="./extra-content/js/bootstrap.min.js"></script>
+    <script src="./main-content/js/main.js"></script>
+</body>
+</html>
