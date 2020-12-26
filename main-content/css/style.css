@@ -228,6 +228,7 @@ background: #19283f;
     margin: 0 5px;
     cursor: pointer;
     border: 2px solid #ffffff;
+    border-radius: 100%;
 }
 .slider-li .active{
     border: 3px solid #ff3150;
