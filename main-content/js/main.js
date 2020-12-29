@@ -103,6 +103,6 @@ var webloder=document.querySelector(".loder");
 function siteloder(){
     webloder.style.display="none";
 }
-alert("Hey Do You Know That? It Is Demo Web tamplate Created By Developer Imran");
+alert("Hey Do You Know That? It Is Demo Web tamplate Created By Developer Imtiaj Imran");
 
 
